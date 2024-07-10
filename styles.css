@@ -1,0 +1,11 @@
+.hover-box {
+  width: 300px;
+  height: 300px;
+  border: 0px solid black;
+  transition-property: border-width;
+  transition-duration: 1s;
+}
+
+.hover-box:hover {
+  border-width: 3px;
+}
